@@ -17,6 +17,14 @@ function getAwsCredentials() {
   return { token, accessKeyId, secretAccessKey, region };
 }
 
+export const routes = {
+  '/corporate-website/api/submitForm': {
+    // other route configurations
+    runtime: 'edge' // Ensure this route runs with the Edge Runtime
+  },
+  // other routes
+};
+
 export async function POST(req) {
   try {
     const { firstName, lastName, company, email, message } = await req.json();
