@@ -17,6 +17,7 @@ function getAwsCredentials() {
   return { token, accessKeyId, secretAccessKey, region };
 }
 
+
 export async function POST(req) {
   try {
     const { firstName, lastName, company, email, message } = await req.json();
