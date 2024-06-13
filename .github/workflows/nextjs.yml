@@ -29,6 +29,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: assign freeform secret
+        env:
+          submit_form: ${{secrets.SUBMIT_FORM}}
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
