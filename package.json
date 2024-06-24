@@ -1,5 +1,6 @@
 {
   "name": "synaero-website",
+  "homepage": "https://scynaero.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
