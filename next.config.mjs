@@ -21,6 +21,7 @@ const nextConfig = {
    * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
    */
   images: {
+    unoptimized: true,
     domains: [
       'arthurgrand.com', 'i.pinimg.com', 'media.licdn.com',
       'static.vecteezy.com', 'img.freepik.com', 'st2.depositphotos.com',
