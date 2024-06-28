@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+
   images: {
     unoptimized: true,
     domains: [
@@ -15,7 +16,6 @@ const nextConfig = {
       'icmediacenter.org', 'images.unsplash.com'
     ],
   },
-  assetPrefix: '/corporate-website/',
 };
 
 export default nextConfig;
