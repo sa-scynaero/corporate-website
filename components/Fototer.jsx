@@ -90,7 +90,7 @@ export default function Fototer() {
       <motion.div className="py-10 bg-black dark:bg-primary">
         <div className="container text-white text-center lg:justify-between lg:flex  ">
           <div className="pb-4 lg:pb-0">
-            <p>Copyright © 2024 - Scynaero, All Rights Reserved.  </p>
+            <p>Copyright © 2025 - Scynaero, All Rights Reserved.  </p>
           </div>
           <div>
             <Link className="p-4 hover:underline" href='/'> Privacy</Link>
