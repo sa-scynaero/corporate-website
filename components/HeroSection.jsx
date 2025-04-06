@@ -44,7 +44,7 @@ const HeroSection = () => {
       </div>
       {/* Right section */}
       <div className="w-1/2 ">
-        <Image src='https://dresma.ai/wp-content/uploads/2022/02/Engineering-Manager-MERN-Stack.gif' width={800} height={500}  className="absolute right-20 xl:h-[400px] lg:h-[344px] lg:w-[500px]  hidden lg:block"/>
+        <Image src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzBsOWd5cWtxdHdvaXZrbXJrejkxa3ZuaDRtNDJjYjdkYjBjcTlseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uB86ZyWQsnFSGYe2sA/giphy.gif' width={800} height={500}  className="absolute right-20 xl:h-[400px] lg:h-[344px] lg:w-[500px]  hidden lg:block"/>
 
       </div>
      
